@@ -2,13 +2,10 @@
   "computadores": [
     {
       "id": 1,
-      "name": "Teste",
-      "price": "9999"
-    },
-    {
-      "id": 2,
-      "name": "Vinicius 2",
-      "price": "12345678"
+      "name": "Adamastor",
+      "price": "12345678",
+      "image": "https://m.media-amazon.com/images/I/51Dqve9EAnL._AC_UF894,1000_QL80_.jpg",
+      "description": "1234"
     }
   ]
 }

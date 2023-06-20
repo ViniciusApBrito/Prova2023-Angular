@@ -6,13 +6,17 @@
           <th>ID</th>
           <th>Nome</th>
           <th>Preço</th>
+          <th>Imagem</th>
+          <th>Descrição</th>
         </tr>
       </thead>
       <tbody>
         <tr *ngFor="let computador of lista">
-          <td>{{ computador.id }}</td>
-          <td>{{ computador.name }}</td>
-          <td>{{ computador.price }}</td>
+          <td style="font-size: 16px;">{{ computador.id }}</td>
+          <td style="font-size: 16px;">{{ computador.name }}</td>
+          <td style="font-size: 16px;">{{ computador.price }}</td>
+          <img src="{{ computador.image }}" style="height: 200px;">
+          <td style="font-size: 16px;">{{ computador.description }}</td>
         </tr>
       </tbody>
     </table>

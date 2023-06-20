@@ -18,5 +18,6 @@ export class ComputadoresService {
   getcomputer():Observable<cadastrar[]> {
     return this.http.get<cadastrar[]>(this.url);
   }
+  
   }
 

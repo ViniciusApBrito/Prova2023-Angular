@@ -18,7 +18,9 @@ export class CadastrarComponent {
     this.FormGroupComputadores = formsBuilder.group({
       id: [''],
       name: ['', [Validators.required]],
-      price: ['', [Validators.required]]
+      price: ['', [Validators.required]],
+      image: ['', [Validators.required]],
+      description: ['', [Validators.required]],
     })
   }
 
@@ -45,5 +47,12 @@ export class CadastrarComponent {
   get price(): any {
     return this.FormGroupComputadores.get("price");
   }
+  get image(): any {
+    return this.FormGroupComputadores.get("image");
+  }
+  get description(): any {
+    return this.FormGroupComputadores.get("description");
+  }
+
 
 }
