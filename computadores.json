@@ -1,0 +1,14 @@
+{
+  "computadores": [
+    {
+      "id": 1,
+      "name": "Teste",
+      "price": "9999"
+    },
+    {
+      "id": 2,
+      "name": "11",
+      "price": "111"
+    }
+  ]
+}
