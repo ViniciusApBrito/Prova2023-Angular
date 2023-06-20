@@ -1,8 +1,7 @@
 import { Component } from '@angular/core';
 import { ComputadoresService } from '../computadores.service';
-import { cadastrar } from '../cadastrar';
 import { FormGroup, FormBuilder, Validators } from '@angular/forms';
-
+import { cadastrar } from '../cadastrar';
 
 @Component({
   selector: 'app-cadastrar',
@@ -34,7 +33,7 @@ export class CadastrarComponent {
       next: data => {
         this.cadastrar.push(data);
         this.FormGroupComputadores.reset();
-        this.submitted = false; // Resetar a flag "submitted"
+        this.submitted = false;
       },
     });
   }
